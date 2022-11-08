@@ -1,0 +1,222 @@
+
+.sidenav-container {
+  height: 100%;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.abtecpiracicaba.com.br%2Fwp-content%2Fuploads%2F2019%2F06%2Fcurso-confeitaria.jpg&f=1&nofb=1&ipt=c4a087de69079292285703843131572d2cd710275fa5700b3a2063042451dd69&ipo=images);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+}
+
+.sidenav {
+  width: 18vw;
+  background-color: rgb(247, 165, 126 );
+  margin-right: 6vw; 
+}
+
+#usuário{
+  width:5vw;
+  height: 11vh;
+}
+
+.item{
+  list-style-type: none;
+  font-weight: italic;
+  padding-bottom: 1vh;
+  margin: 1vw;
+ 
+  font-size: 1vw;
+
+}
+
+.i{
+  padding-bottom: 1vh;
+  border-bottom: 2px solid rgb(234, 109, 51);
+}
+
+.item li{
+  padding-top: 2vh;
+
+}
+
+
+.mat-toolbar {
+  background-color: rgb(255, 186, 154);
+  box-shadow: 0px 1px 3px rgb(150, 150, 151);
+  height: 5vh;
+  
+}
+
+.color1{
+  background-image: linear-gradient(to bottom, rgb(255, 186, 154), white);
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-image: linear-gradient(to bottom, rgb(255, 186, 154), white);
+ 
+}
+
+#B1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2vw;
+  border-right: 3px solid white;
+}
+
+#B1:hover{
+  background-color: rgb(247, 165, 126) ;
+  color:chocolate;
+  transition: .4s;
+}
+
+img{
+  width: 13vw;
+  height: 20vh;
+  border-radius: 0.75rem;
+  margin: 1vw;
+  transition: transform 0.5s;
+}
+
+img:hover{
+  transform: scale(1.17);
+}
+
+.imagens{
+  margin-top:9vh;
+  margin-left: 3vw;
+}
+
+.color{
+  color:rgb(255, 186, 154);
+}
+
+.body{
+  display: flex ;
+  justify-content: space-between;
+}
+
+.t1{
+  margin-top: 12vh;
+  margin-right: 7vw;
+  margin-left: 9vw;
+  border-bottom: 1px solid rgb(255, 186, 154);
+  padding-bottom: 3vw;
+}
+
+#button{
+  margin-top: 6vh;
+  margin-left: 8vw;
+  width: 10vw;
+  height: 5vh;
+  border-radius: 1rem;
+  background-color: rgb(255, 186, 154);
+  font-size: 2vw;
+  font-family: inspiration;
+  border: none;
+}
+
+#button:hover{
+  background-color: rgb(247, 165, 126) ;
+  color:chocolate;
+  transition: .4s;
+}
+
+.link{
+  justify-items: center;
+  padding-bottom: 4vh;
+
+}
+
+.color2{
+  color:rgb(234, 109, 51);
+}
+
+.content{
+  height: 24vh;
+  width:45vw;
+  border-radius: 1rem;
+  overflow:hidden;
+  margin-left: 27.2vw;
+}
+
+.navigation{
+  display:inline-flex;
+
+  align-self: center;
+  
+}
+
+.bar{
+  width:calc(2.2vw);
+  height:calc(1vh);
+  border:0.5px solid rgb(234, 109, 51);
+  background-color:rgb(234, 109, 51);
+  border-radius: 0.30rem;
+  cursor: pointer;
+  transition: 0.6s;
+  margin-bottom: 1vh;
+  margin:2px;
+}
+
+.bar:hover{
+  background-color:rgb(247, 165, 126 );
+}
+
+.bar:focus{
+ color: rgb(255, 186, 154);
+ outline: none;
+
+}
+
+
+input{
+  display: none;
+}
+
+
+.slides{
+  display: flex;
+  width: 500%;
+  height: 100%;
+  align-items: center;
+}
+
+.slide{
+  width: 8,3%;
+  transition: .6s;
+
+}
+
+
+#slide1:checked ~ .s1 {
+  margin-left: 0;
+
+}
+
+#slide2:checked ~ .s1{
+  margin-left: -20%;
+}
+
+#slide3:checked ~ .s1{
+  margin-left: -40%;
+}
+
+#slide4:checked ~ .s1{
+  margin-left: -60%;
+}
+
+#slide5:checked ~ .s1{
+  margin-left: -80%;
+}
+
+.section{
+  position: absolute;
+  background-image: linear-gradient(to bottom, rgb(247, 165, 126), rgb(234, 109, 51) );
+  width: 100%;
+  height: 34.2vh;
+  text-align: center;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  box-shadow: 0px -5px rgba(128, 128, 128, 0.105);
+}
