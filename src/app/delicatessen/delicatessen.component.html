@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- <mat-toolbar>
+        <button routerLink="" id="B1"><span>Rallieta</span></button>
+    </mat-toolbar> -->
+    <mat-sidenav-container class="sidenav-container">  
+        <br>
+        <h1 style="font-family: inspiration; font-size: 15vw;">Delicatéssen</h1>  
+        <br>
+        <a id="link"routerLink="">Rallieta</a>
+    </mat-sidenav-container>
+    
+    
+    <div class="content">
+        <div class="navigation">
+            <mat-icon>search</mat-icon>
+            <input type="text" placeholder="Pesquisar">
+            <button id="search" type="submit">pesquisar</button>
+
+        </div>
+        <div class="linha">
+            <div class="produto">
+            <figure class="item">
+              <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ExGAsJK_2N5wIQYyueGDlwHaE8%26pid%3DApi&f=1&ipt=fd92ae5955db803d98fe5fdd6628df3e0831e532eed744fba683b2aeff582f44&ipo=images" alt="bolo de chocolate">
+                <figcaption>
+                    <ul class="atributo ">
+                        <li class="nome">Bolo de chocolate</li>
+                        <br>
+                        <li class="descrição">Bolo de chocolate meio amargo<br>com cobertura de chocolate ao leite</li>
+                        <br>
+                        <li class="preço"><b>R$ 9,00</b></li>
+                        <br>
+                        <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+                    </ul>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="produto">
+            <figure class="item">
+                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.4icdmZE7iBAnC-nICVJAYAHaE8%26pid%3DApi&f=1&ipt=c677fe6154038e5a266a745405d2216c58f22bec7650c039c7872feb5ab4c125&ipo=images" alt="mousse de limão">
+                <figcaption>
+                    <ul class="atributo ">
+                        <li class="nome">Mousse de limão</li>
+                        <br>
+                        <li class="descrição">Mousse artesanal<br>de limão, suave.</li>
+                        <br>
+                        <li class="preço"><b>R$ 6,00</b></li>
+                        <br>
+                        <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+                    </ul>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="produto">
+           <figure class="item">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.evtB4aofGlhEGfRnWP3JRQHaF0%26pid%3DApi&f=1&ipt=78acabe9bea4db6dbc911b37037ecbe168a98da466bd840085aa8f7eeb57d938&ipo=images" alt="Cheesecake">
+            <figcaption> <ul class="atributo ">
+                <li class="nome">Cheesecake</li>
+                <br>
+                <li class="descrição">Cheesecake doce de frutas vermelhas,</li>
+                <br>
+                <li class="preço"><b>R$ 50,00</b></li>
+                <br>
+                <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+            </ul></figcaption>
+           </figure>
+        </div>
+        <div class="produto">
+           <figure class="item">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.DwNMGucyOQHQPU4_i__PUwHaDx%26pid%3DApi&f=1&ipt=0510f22d63fa2b9d7f3885453725a6ce6cbdf0a4d499d0ce5a5fdf317233f6e6&ipo=images" alt="pastel de forno"> 
+            <figcaption> <ul class="atributo ">
+                <li class="nome">Pastel de Forno</li>
+                <br>
+                <li class="descrição">Pastel de forno de<br> catupiry, sem fermento</li>
+                <br>
+                <li class="preço"><b>R$ 3,00</b></li>
+                <br>
+                <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+            </ul></figcaption>
+           </figure>
+        </div>
+        </div>
+        <div class="linha">
+            <div class="produto">
+            <figure class="item">
+              <img src="https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/4aOghqWZFCyDeCAJalSN/pub/kjVbjisdYE18fTee3WxJ.jpg" alt="">
+                <figcaption>
+                    <ul class="atributo ">
+                        <li class="nome">Hamburguer Artesanal</li>
+                        <br>
+                        <li class="descrição">Hamburguer artesanal com cheddar bacon e salada</li>
+                        <br>
+                        <li class="preço"><b>R$ 12,00</b></li>
+                        <br>
+                        <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+                    </ul>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="produto">
+            <figure class="item">
+                 <img src="https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/4aOghqWZFCyDeCAJalSN/pub/kyc8HqbZhtGup9Pb2rxJ.webp" alt="">
+                <figcaption>
+                    <ul class="atributo ">
+                        <li class="nome">Sanduiche Artesanal</li>
+                    
+                        <li style="font-size: 0.6vw;"class="descrição">Sanduiche artesanal com molho opicional queijo, peito de peru defumado e salada.</li>
+                        
+                        <li class="preço"><b>R$ 12,00</b></li>
+                        <br>
+                        <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+                    </ul>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="produto">
+           <figure class="item">
+            <img src="http://suavesabor.com.br/wp-content/uploads/2020/08/Produtos-67-1.jpg" alt="">
+            <figcaption> <ul class="atributo ">
+                <li class="nome">Floresta Negra</li>
+                <br>
+                <li class="descrição">Bolo floresta negra<br>de cholate alemão, cerejas e chantilly</li>
+                <br>
+                <li class="preço"><b>R$ 70,00</b></li>
+                <br>
+                <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+            </ul></figcaption>
+           </figure>
+        </div>
+        <div class="produto">
+           <figure class="item">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.rcFxHcSi0P6lka_QyeTFTgHaHa%26pid%3DApi&f=1&ipt=80c32acb874ef5c32ccefedcc0289857d803fcc31e690438eed8c9738fda17a9&ipo=images" alt=""> 
+            <figcaption> <ul class="atributo ">
+                <li class="nome">Cupcake</li>
+                <br>
+                <li class="descrição">Cupcake de chocolate, com granulado.</li>
+                <br>
+                <li class="preço"><b>R$ 4,00</b></li>
+                <br>
+                <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+            </ul></figcaption>
+           </figure>
+        </div>
+        </div>
+        <div class="linha">
+            <div class="produto">
+            <figure class="item">
+              <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP._bRj9UxWCxu8e3T-Ud4y5QHaFj%26pid%3DApi&f=1&ipt=3a2127c1b2d4d306a7b1466d159567bb361ec9e41e2007b658d4a748381d4033&ipo=images" alt="">
+                <figcaption>
+                    <ul class="atributo ">
+                        <li class="nome">Brigadeiro</li>
+                        <br>
+                        <li class="descrição">Bandeija de brigadeiro de chocolate granulado.<br> 8 unidades</li>
+                        <br>
+                        <li class="preço"><b>R$ 6,00</b></li>
+                        <br>
+                        <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+                    </ul>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="produto">
+            <figure class="item">
+                 <img src="https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/4aOghqWZFCyDeCAJalSN/pub/pw7QMIpKlca4sbbiWhSV.jfif" alt="">
+                <figcaption>
+                    <ul class="atributo ">
+                        <li class="nome">Empada de Forno</li>
+                        <br>
+                        <li class="descrição">Empada de frango e queijo</li>
+                        <br>
+                        <li class="preço"><b>R$ 5,00</b></li>
+                        <br>
+                        <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+                    </ul>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="produto">
+           <figure class="item">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.MHWjKAkDzjB3HmlqKdxEUgHaD8%26pid%3DApi&f=1&ipt=6105b31a2ce9d80ceca2dfaf924259cffcf98986b641be63a41061b6f2d866f2&ipo=images" alt="">
+            <figcaption> <ul class="atributo ">
+                <li class="nome">Brigadeiro Casadinho</li>
+                <br>
+                <li class="descrição">Brigadeiro casadinho artesanal.<br>8 unidades</li>
+                <br>
+                <li class="preço"><b>R$ 6,00</b></li>
+                <br>
+                <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+            </ul></figcaption>
+           </figure>
+        </div>
+        <div class="produto">
+           <figure class="item">
+            <img src="https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/4aOghqWZFCyDeCAJalSN/pub/H4icB4YdRTNoyFptTAfI.jpg" alt=""> 
+            <figcaption> <ul class="atributo ">
+                <li class="nome">Pastel</li>
+                <br>
+                <li class="descrição">Pastel frito de Carne</li>
+                <br>
+                <li class="preço"><b>R$ 7,00</b></li>
+                <br>
+                <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+            </ul></figcaption>
+           </figure>
+        </div>
+        </div>
+        <div class="linha">
+            <div class="produto">
+            <figure class="item">
+              <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.jBIrwuH9_JZ82fYhH_YJ2AEsDD%26pid%3DApi&f=1&ipt=a142e66ff676011a1b8fd1979afd6ddb513ee2bd8477d873543ce557d0dfdc54&ipo=images" alt="">
+                <figcaption>
+                    <ul class="atributo ">
+                        <li class="nome">Bolo de Rolo</li>
+                        <br>
+                        <li class="descrição">Bolo de Rolo de morango</li>
+                        <br>
+                        <li class="preço"><b>R$ 15,00</b></li>
+                        <br>
+                        <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+                    </ul>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="produto">
+            <figure class="item">
+                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Al4IXYUOStkpSm76OTM4jQHaEo%26pid%3DApi&f=1&ipt=0a77adbbda64201253c52c175fa2d7f4b2869d686c480b52276489f884cc3c15&ipo=images" alt="">
+                <figcaption>
+                    <ul class="atributo ">
+                        <li class="nome">Sonho</li>
+                        <br>
+                        <li class="descrição">Sonho de doce de leite</li>
+                        <br>
+                        <li class="preço"><b>R$ 3,00</b></li>
+                        <br>
+                        <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+                    </ul>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="produto">
+           <figure class="item">
+            <img src="https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/4aOghqWZFCyDeCAJalSN/pub/uofTBtLA3oxn8TtJSYU4.jpg" alt="">
+            <figcaption> <ul class="atributo ">
+                <li class="nome">Coxinha de Frango</li>
+                <br>
+                <li class="descrição">Coxinha de frango com queijo e requeijão</li>
+                <br>
+                <li class="preço"><b>R$ 5,00</b></li>
+                <br>
+                <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+            </ul></figcaption>
+           </figure>
+        </div>
+        <div class="produto">
+           <figure class="item">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.dLscr01371SVJ0qSFDYDSQAAAA%26pid%3DApi&f=1&ipt=966ea211e45f906e411b865e1a34a466b2f68fab0978314a22686e2ced042d26&ipo=images" alt=""> 
+            <figcaption> <ul class="atributo ">
+                <li class="nome">Mini Churros</li>
+                <br>
+                <li class="descrição">Mini Churros. 10 unidades</li>
+                <br>
+                <li class="preço"><b>R$ 5,00</b></li>
+                <br>
+                <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+            </ul></figcaption>
+           </figure>
+        </div>
+        </div>
+        <div class="linha">
+            <div class="produto">
+            <figure class="item">
+              <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.TL4aBvan788hCXBvIWXaCwHaEc%26pid%3DApi&f=1&ipt=dd624ef25aecd4d821071e4a22a3c2b51d311d9f40a97fcd6c36ae56732fdd10&ipo=images" alt="">
+                <figcaption>
+                    <ul class="atributo ">
+                        <li class="nome">Torta Salgada</li>
+                        <br>
+                        <li class="descrição">Torta salgada de forno</li>
+                        <br>
+                        <li class="preço"><b>R$ 25,00</b></li>
+                        <br>
+                        <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+                    </ul>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="produto">
+            <figure class="item">
+                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.YHtjmUczfzQdy_DCno_ehQHaFS%26pid%3DApi&f=1&ipt=604d22d59b24ef211ed2fc10e37970b50da92c45d2a03f9dd6f970b2e2c1f589&ipo=images" alt="">
+                <figcaption>
+                    <ul class="atributo ">
+                        <li class="nome">Pizza Tradicional</li>
+                        <br>
+                        <li class="descrição">Pizza de calabresa com queijo mussarela e azeitonas</li>
+                        <br>
+                        <li class="preço"><b>R$ 30,00</b></li>
+                        <br>
+                        <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+                    </ul>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="produto">
+           <figure class="item">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.ja_V3RSD1TjtvRSogjWW2QHaE8%26pid%3DApi&f=1&ipt=5f24611c5518a0ad8e4b7dee0b8496129a9d1eb18b015f43aa9728b48a7da4e2&ipo=images" alt="">
+            <figcaption> <ul class="atributo ">
+                <li class="nome">Mousse de maracujá</li>
+                <br>
+                <li class="descrição">Mousse de maracujá, artesanal</li>
+                <br>
+                <li class="preço"><b>R$ 7,00</b></li>
+                <br>
+                <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+            </ul></figcaption>
+           </figure>
+        </div>
+        <div class="produto">
+           <figure class="item">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.HXnzSUpFts9j8wjwvba6nQHaE6%26pid%3DApi&f=1&ipt=087f053e7f977c0acd69c29b5d105bcef3add10afcb72902712c76bbc02baae8&ipo=images" alt=""> 
+            <figcaption> <ul class="atributo ">
+                <li class="nome">Lasanha</li>
+                <br>
+                <li class="descrição">Lasanha de carne, com queijo e massa folhada</li>
+                <br>
+                <li class="preço"><b></b></li>
+                <br>
+                <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+            </ul></figcaption>
+           </figure>
+        </div>
+        </div>
+        <div class="linha" style="padding-bottom: 5vh;">
+            <div class="produto">
+            <figure class="item">
+              <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.sslxv0P5AQ1FXzrOiep80QHaD8%26pid%3DApi&f=1&ipt=57a4e262580388848f2d6b5976658fd82fab535792014cdec52fb8dfba0fda46&ipo=images" alt="">
+                <figcaption>
+                    <ul class="atributo ">
+                        <li class="nome">Pizza 4 queijos</li>
+                        <br>
+                        <li class="descrição">Pizza Quatro queijos</li>
+                        <br>
+                        <li class="preço"><b>R$ 30,00</b></li>
+                        <br>
+                        <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+                    </ul>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="produto">
+            <figure class="item">
+                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.64r36d3Zv_KBph8Oxk81DgHaE8%26pid%3DApi&f=1&ipt=1fe0cebfa41b5b8309533d8aa87515e17ca00654d7c500b61b4a0387ee82f8f0&ipo=images" alt="">
+                <figcaption>
+                    <ul class="atributo ">
+                        <li class="nome">Pavê de Chocolate</li>
+                        <br>
+                        <li class="descrição">Pavê de copo de chocolate</li>
+                        <br>
+                        <li class="preço"><b>R$ 7,00</b></li>
+                        <br>
+                        <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+                    </ul>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="produto">
+           <figure class="item">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.OYJCNkd9VgjeWsxZb49RLAHaE8%26pid%3DApi&f=1&ipt=4a6518be426493a388c677fe10e9edded40ec051ab0ede5d8dfe088e23cd436c&ipo=images" alt="">
+            <figcaption> <ul class="atributo ">
+                <li class="nome">Açaí</li>
+                <br>
+                <li class="descrição">Açaí com banana, frutas e acompanha-<br>mentos</li>
+                <br>
+                <li class="preço"><b>R$ 12,00</b></li>
+                <br>
+                <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+            </ul></figcaption>
+           </figure>
+        </div>
+        <div class="produto">
+           <figure class="item">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.NNayoWDos5H4gpArTagIDQHaJQ%26pid%3DApi&f=1&ipt=46dfb2994ee4a231fcdb90252039546196a6a0e28dce9ab7b2b6bc2cee846db9&ipo=images" alt=""> 
+            <figcaption> <ul class="atributo ">
+                <li class="nome">Milkshake</li>
+                <br>
+                <li class="descrição">Milkshake de chocolate</li>
+                <br>
+                <li class="preço"><b>R$ 12,00</b></li>
+                <br>
+                <li><button class="btn btn-info" routerLink="" class="buttons">Comprar</button></li>
+            </ul></figcaption>
+           </figure>
+        </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+

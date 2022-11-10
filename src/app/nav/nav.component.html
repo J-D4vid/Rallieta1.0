@@ -1,0 +1,94 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'push'"
+      [opened]="opened">
+    <mat-nav-list>
+      <ul class="item">
+        <li><img id="usuário" src="https://img2.gratispng.com/20180602/ytc/kisspng-computer-icons-user-profile-male-logo-5b123ed1093740.8042409615279223850378.jpg"></li>
+        <li class="color2 "><B>Nome:&nbsp;Juan D.</B></li>
+        <li class="color2 i "><b>Contato:&nbsp;98867-0727</b></li>
+        <br>
+        <li class="color2"><a>Meu Carrinho</a></li>
+        <li class="color2"><a>Fale Conosco</a></li>
+      </ul>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar>
+      <button (click)="opened=!opened" class = "button_open_nav"mat-button id="B1"><span><font color="chocolate">Rallieta</font></span>
+      </button>
+    </mat-toolbar>
+    <div class="body">
+      <div class="imagens">
+       <h1 class="color" style="font-size: 6vw; font-family: inspiration;">Uma vida mais doce...<br><br><br> uma vida melhor!</h1>
+       
+      </div>
+      <div class="link">
+        <h1 class="color t1" style="font-size: 4vw; font-family: inspiration;">onde quer ir?</h1>
+        <ul><a routerLink="/delicatesse"><button id="button" >Delicatessen</button></a></ul>
+        <ul><a routerLink="/cafeteria"><button id="button">Cafeteria</button></a></ul>
+        <ul><a routerLink="/mizan"><button id="button">Mizãn plass</button></a></ul>
+      </div>
+    </div>
+    <div class="section">
+      <br>
+        
+        <h1 style="font-family: inspiration; font-size: 3vw;">------------<font class="color2">------Principais Produtos------</font>------------</h1>
+        <br>
+
+        <div class="navigation">
+          <label class="bar" for="slide1"></label>
+          <label class="bar" for="slide2"></label>
+          <label class="bar" for="slide3"></label>
+          <label class="bar" for="slide4"></label>
+          <label checked class="bar" for="slide5"></label>
+  
+        </div>  
+      <div class="content"> 
+        <div class="slides">
+          <input type="radio" name="slide" id="slide1" checked>
+          <input type="radio" name="slide" id="slide2">
+          <input type="radio" name="slide" id="slide3">
+          <input type="radio" name="slide" id="slide4">
+          <input type="radio" name="slide" id="slide5">
+  
+          <div class="slide s1">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ExGAsJK_2N5wIQYyueGDlwHaE8%26pid%3DApi&f=1&ipt=fd92ae5955db803d98fe5fdd6628df3e0831e532eed744fba683b2aeff582f44&ipo=images" alt="bolo de chocolate">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.u3beJNyLRXgtGYahmCdGeAHaE7%26pid%3DApi&f=1&ipt=2fe401a91542bd09a583add32b5a7dd98810387cbfbabfd0f86ce3cef13f3810&ipo=images" alt="">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.RofVqlpT9i8_gk_LGG42pgHaEp%26pid%3DApi&f=1&ipt=81b521c38ee2114be9b7e8d3b4bb904b4d50b849b65386df2ae2df102356dfee&ipo=images" alt="">
+            
+          </div>
+          <div class="slide">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.4icdmZE7iBAnC-nICVJAYAHaE8%26pid%3DApi&f=1&ipt=c677fe6154038e5a266a745405d2216c58f22bec7650c039c7872feb5ab4c125&ipo=images" alt="mousse de limão">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.AdKz6U8N_FPUtOya2SBi6wHaE8%26pid%3DApi&f=1&ipt=55c7d2eac5596dfdc3fba7a85b2f69fb445503d7169ce5c6b82c914b11494504&ipo=images" alt="">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.LjQl14m7knVQtDD_F23BnQHaFk%26pid%3DApi&f=1&ipt=c50a082f4758b8d81d9c8acdcb9ad37b8d249b1b51b3224e9b3311eb34967de8&ipo=images" alt="">
+
+          </div>
+          <div class="slide">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.evtB4aofGlhEGfRnWP3JRQHaF0%26pid%3DApi&f=1&ipt=78acabe9bea4db6dbc911b37037ecbe168a98da466bd840085aa8f7eeb57d938&ipo=images" alt="Cheesecake">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.DuryOGI2opmtQimci9pGOwHaEo%26pid%3DApi&f=1&ipt=d987772c3348d9910f439cdbe4ac3308cdabdb6309398505404d776a3ea524bd&ipo=images" alt="">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.9JINfM0PNdar6MJWLSbWBwHaHa%26pid%3DApi&f=1&ipt=3059da27ed0529f2d4ea3b28667f0746fecc952df0afffccb049a2e0ebf7b88b&ipo=images" alt="">
+          </div>  
+          <div class="slide">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.DwNMGucyOQHQPU4_i__PUwHaDx%26pid%3DApi&f=1&ipt=0510f22d63fa2b9d7f3885453725a6ce6cbdf0a4d499d0ce5a5fdf317233f6e6&ipo=images" alt="pastel de forno">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.0OZo4MxXXEiJgp85xwZcNAHaFS%26pid%3DApi&f=1&ipt=a1bc79992ad9292c86de9600f06233f5bb4bbd9eb51a1a127d2aa6cd550dfa6b&ipo=images" alt="">
+            <img src="https://i.pinimg.com/originals/af/9f/ff/af9fff6e534950bda64eb11337110b5c.jpg" alt="">
+  
+          </div>
+          <div class="slide">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.t7AGMyDj0fNBb-jD44GVlwHaE8%26pid%3DApi&f=1&ipt=923972bcc7dc27242b990effc008e331bc3cbd859b35e963128c36807dad8dab&ipo=images" alt="Coxinha">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.wXaoc6EoUVjnSofYdpG6AwHaE8%26pid%3DApi&f=1&ipt=c3abecf194509deff6b7a5a3882e4596af78292ace07a384ebf01485fe086a46&ipo=images" alt="">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.xR59EXRa0YecGBCnF1vlhwHaHa%26pid%3DApi&f=1&ipt=481e490a279ec45c1caa4cc9941db9c63f925c3e55f8f6c9ac6192271d3d8e25&ipo=images" alt="">
+          </div>
+        
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+  </mat-sidenav-content>
+ 
+</mat-sidenav-container>
